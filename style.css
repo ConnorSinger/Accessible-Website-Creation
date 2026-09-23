@@ -1,0 +1,217 @@
+/* Here is the css for the used features*/
+
+
+/* CSS for the body of the page assigns background color and text color */
+body {
+  font-family: Arial, Arial , Arial;
+  background-color: white;
+  color: black;
+}
+
+/* Here is the CSS for the headings or titles where we assign the sizes and text alignment */
+h1 {
+  padding-top: 100px; 
+  text-align: center; 
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 50px;
+}
+
+h3{
+  font-size: 40px; 
+  text-align: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+.footnote {
+  text-align: center;
+  font-size: small;
+}
+
+/* Regular sizing and alignment for paragraph text and then for other needed objects */
+p {
+  text-align: center; 
+  font-size: 35px;
+}
+
+li
+{
+  text-align: center; 
+  font-size: 30px;
+}
+ol
+{
+  font-size: 35px;
+  text-align: center;
+  list-style-position: inside;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Regular sizing and alignment for images used */
+img
+{
+  border: #000000; 
+  border-radius: 10px; 
+  border-style: groove; 
+  width: 20%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2
+{
+  border: #000000; 
+  border-radius: 10px; 
+  border-style: groove; 
+  width: 70%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img3
+{
+  border: #000000; 
+  border-radius: 10px; 
+  border-style: groove; 
+  width: 40%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Here I create the navbar settings 
+
+  In which we get the text color, the alignment, the background color and then the padding used to make it look nice
+  
+  We have fixed because we want the navbar to always be on the screen*/
+.navbar
+{
+  display:block; 
+  border: #000000; 
+  border-radius: 10px; 
+  border-style: groove; 
+  position: fixed; 
+  top: 10px; 
+  left: 50%; 
+  width: max-content; 
+  transform: translateX(-50%); 
+  background-color: #f4f4f4; 
+  padding: 10px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Here is the code for the navbar buttons and what happens on special actions */
+
+/* This is it in it's neutral state */
+.button
+{
+  color: rgb(42, 42, 72);
+  font-size: 30px;
+}
+
+/* Then I create the logic for hovering over the button */
+.button:hover,
+.button:focus
+{
+  color: rgb(4, 4, 252);
+  font-size: 37px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* Here is the alternative CSS which was used in the orginal project, unused in current version but nice if needed in future implementations
+
+   Hence why it is still here
+   
+   And also it is the correct colors for accessibility */
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-size: 17px;
+
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.topnav a:active {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  color: black;
+  text-align: left;
+  margin: 10;
+}
+
+.footer a:link{
+  color: rgb(0, 0, 0);
+}
+
+.box-1{
+  background-color: #000000;
+  color: white;
+  border:5px #323232 solid;
+  padding:20px;
+  margin:20px 0;
+}
+
+.box-2 {
+  background-color: #000000;
+  color: white;
+  border:5px #323232 solid;
+  padding:20px;
+}
+
+.box-2 a:link {
+  color: rgb(0, 0, 0);
+}
+
+
+li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+#skipnav {
+  color: #000000;
+}
+
+#AdelphiLogo {
+  text-align: left;
+}
